@@ -445,7 +445,7 @@ BOOL isTabSelected = NO;
 %group gFullscreenToTheRight
 %hook YTWatchViewController
 - (UIInterfaceOrientationMask)allowedFullScreenOrientations {
-    UIInterfaceOrientationMask orientations = UIInterfaceOrientationMaskLandscapeRight;
+    UIInterfaceOrientationMask orientations = UIInterfaceOrientationMaskLandscapeLeft;
     return orientations;
 }
 %end
